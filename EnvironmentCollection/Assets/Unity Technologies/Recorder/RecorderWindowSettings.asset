@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
+  m_Name: RecorderWindowSettings
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114580227442462886}
+--- !u!114 &114399186396178112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 50047e14-670e-4cb2-bc22-1eed00dadf1e
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 1023e73a-844a-4be4-8b41-15b21c95aa2c
+  m_OutputSize: 0
+  m_AspectRatio: 0
+  m_ForceEvenSize: 0
+  source: 1
+  m_CameraTag: 
+  m_FlipFinalOutput: 1
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114580227442462886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e435bf89a8bb0bf4abee94a2cc516927, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 1917a416bda02ac4da7f2ea879ecbe47
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 30
+  m_FrameRateExact: 1
+  m_StartFrame: 20
+  m_EndFrame: 55
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 2
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: biginjapanTwitter.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114399186396178112}
+    ownerRecorderSettingsAssetId: 1917a416bda02ac4da7f2ea879ecbe47
+  m_RecorderTypeName: UTJ.FrameCapturer.Recorders.GIFRecorder, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  m_GifEncoderSettings:
+    width: 0
+    height: 0
+    numColors: 256
+    keyframeInterval: 30
+    maxTasks: 8
