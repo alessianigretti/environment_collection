@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Big in Japan.unity
+- path: Assets/Mirror.unity
   isLoaded: 1
   isActive: 1
